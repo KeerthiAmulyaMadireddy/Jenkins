@@ -1,6 +1,7 @@
 # Installing Argo CD operator in Minikube 
 Install on Kubernetes
 Install Operator Lifecycle Manager (OLM), a tool to help manage the Operators running on your cluster.
+(We will install OLM at once and for installing further operators you dont need to install it again)
 
 $ curl -sL https://github.com/operator-framework/operator-lifecycle-manager/releases/download/v0.27.0/install.sh | bash -s v0.27.0
 
